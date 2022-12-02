@@ -1,0 +1,41 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+    font-size: 20px;
+}
+nav:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+#first_underline{
+    position:absolute;
+    height: 5px;
+    width: 0;
+    background-color: pink;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+
+}
+
+nav:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second_underline{
+    position:absolute;
+    height: 5px;
+    width: 0;
+    background-color:lightskyblue;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
